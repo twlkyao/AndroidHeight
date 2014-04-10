@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 性别选择单选框 -->
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <!-- 父亲身高 标签 -->
+
+    <TextView
+        android:id="@+id/father"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/father" />
+    <!-- 父亲身高输入框 -->
+
+    <EditText
+        android:id="@+id/father_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/father_height"
+        android:inputType="number" />
+
+    <!-- 母亲身高标签 -->
+
+    <TextView
+        android:id="@+id/mother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mother" />
+    <!-- 母亲身高输入框 -->
+
+    <EditText
+        android:id="@+id/mother_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mother_height"
+        android:inputType="number" />
+
+    <!-- 预测结果标签 -->
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/height" />
+    <!-- 预测结果 -->
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="" />
+
+    <!-- 计算按钮 -->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button" />
+
+    <!-- 帮助 -->
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help" />
+
+</LinearLayout>

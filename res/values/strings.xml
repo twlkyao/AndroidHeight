@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Height</string>
+    <string name="menu_settings">Settings</string>
+    <string name="empty">请完整填写身高！</string>
+    <string name="title_activity_main">身高预测</string>
+    <string name="help">使用方法：\n
+	    				1.选择孩子性别\n
+	    				2.输入父亲身高(单位cm)\n
+	    				3.输入母亲身高(单位cm)\n
+	    				4.计算</string>
+    <string name="about">关于</string>
+    <string name="about_info">	作者：齐士垚\n
+        						邮箱：qishiyao2008@126.com\n
+	    					版本：v1.1\n
+	    					日期：2013.2.23</string>
+    <string name="exit">退出</string>
+    <string name="father">父亲身高：</string>
+    <string name="father_height">单位cm</string>
+    <string name="mother">母亲身高：</string>
+    <string name="mother_height">单位cm</string>
+    <string name="height">预测身高：</string>
+    <string name="button">预测身高</string>
+    <string name="sex">选择性别：</string>
+    <string name="male">男孩</string>
+    <string name="female">女孩</string>
+
+</resources>
