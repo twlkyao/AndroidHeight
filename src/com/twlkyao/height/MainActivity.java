@@ -1,7 +1,8 @@
 /**
- * ���ߣ���ʿ��
- * ���ڣ�2013.2.23
- * ���ܣ���ݸ�ĸ���Ԥ�⺢�����
+ * @Author:	Shiyao Qi
+ * @Date:	2013.2.23
+ * @Function:	Predict the future height of a baby
+ * 				according to its gender and the height of its parents.
  */
 package com.twlkyao.height;
 
